@@ -1,4 +1,3 @@
-// components/SwapRatesBar.jsx
 import { useState } from "react";
 import { Repeat, ChevronDown } from "lucide-react";
 

@@ -1,4 +1,3 @@
-// components/WalletsPanel.jsx
 export default function WalletsPanel({ wallets, stats }) {
   return (
     <div className="bg-white rounded-2xl p-6 shadow-sm h-full flex flex-col justify-center">

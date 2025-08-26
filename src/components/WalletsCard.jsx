@@ -1,4 +1,3 @@
-// components/WalletsCard.js
 import { Wallet } from "lucide-react";
 
 export default function WalletsCard({ wallets }) {

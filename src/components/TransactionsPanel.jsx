@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function TransactionsPanel({ data }) {
   return (
     <div className="bg-white rounded-2xl p-4 w-full shadow-sm">

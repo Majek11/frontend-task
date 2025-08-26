@@ -1,4 +1,3 @@
-// components/ChartPanel.jsx
 import {
   BarChart,
   Bar,
