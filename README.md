@@ -1,12 +1,78 @@
-# React + Vite
+Dashboard UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple React + Tailwind CSS dashboard layout with a sidebar, top navigation bar, chart panels, and wallet panels.
 
-Currently, two official plugins are available:
+Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Sidebar
 
-## Expanding the ESLint configuration
+Displays date, greeting, navigation menu, resources, and account support.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Menu items grouped into separate cards for clarity.
+
+Navbar
+
+Custom background image with flexible spacing.
+
+Country flags, notification bell, and user profile dropdown.
+
+Chart Panels
+
+Bar chart built with Recharts
+.
+
+Dropdown filters with configurable data.
+
+Wallet Panel
+
+Displays country flags, currency text, and balances.
+
+Tech Stack
+
+React – Component-based UI.
+
+Tailwind CSS – Utility-first styling.
+
+Recharts – Responsive charting library.
+
+Lucide Icons – Modern icon set.
+
+Project Structure
+src/
+ ├─ components/
+ │   ├─ Sidebar.jsx
+ │   ├─ Navbar.jsx
+ │   ├─ ChartPanel.jsx
+ │   ├─ WalletPanel.jsx
+ │   └─ Dashboard.jsx
+ └─ App.jsx
+
+Getting Started
+
+Clone the repository:
+
+git clone https://github.com/your-username/dashboard-ui.git
+cd dashboard-ui
+
+
+Install dependencies:
+
+npm install
+
+
+Run the development server:
+
+npm run dev
+
+
+Open in browser:
+
+http://localhost:5173
+
+Customization
+
+Update ChartPanel.jsx with your own data.
+
+Replace flag images in Navbar.jsx and WalletPanel.jsx.
+
+Adjust spacing and colors in Tailwind classes to match branding.
